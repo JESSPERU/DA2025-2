@@ -9,4 +9,5 @@ nombre = st.text_input("¿Wanxito, me quieres?")
 #mostrar saludo
 if nombre:
     st.write("Muy bien, mucho mucho <3")
+    st.write("No olvides comprar mi aguita")
                       
