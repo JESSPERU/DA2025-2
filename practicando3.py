@@ -9,8 +9,18 @@ def clasificar_puntaje(puntaje):
     else:
         return "necesitas mejorar amigo"
 
-#INTERFAZ EN STREAMLIT
+#menu lateral
+st.sidebar.title("menu de bavegacion")
+opcion = st.sidebar.selectbox("lecciona una opcion",  ["inicio","Clasificacion de puntaje... chan!"])
 
+#seccion inciio
+if opcion == "inicio":
+    st.title("bienvenido a la app")
+
+
+#seccion clasifciacon del puntaje
+
+elif opcion ==  "Clasificacion de puntaje... chan!"
 st.title("Clasificacion de puntaje... chan!")
 
 st.write("Ingresa un puntaje y el sistema lo calificara")
