@@ -28,7 +28,7 @@ elif opcion ==  "Clasificacion de puntaje... chan!":
     puntaje_slider = st.slider("Selecciona un puntaje: ",0,100,50)
 
     #mostrar la claifi en tiempo real
-    st.info(f"el puntaje {puntaje_slider} es clasificado como : **{clasificar_puntaje(puntaje_slider)} ")
+    st.info(f"el puntaje {puntaje_slider} es clasificado como : **{clasificar_puntaje(puntaje_slider)}** ")
 
     #entrada de usario
 
