@@ -20,14 +20,14 @@ if opcion == "inicio":
 
 #seccion clasifciacon del puntaje
 
-elif opcion ==  "Clasificacion de puntaje... chan!"
-st.title("Clasificacion de puntaje... chan!")
+elif opcion ==  "Clasificacion de puntaje... chan!":
+    st.title("Clasificacion de puntaje... chan!")
 
-st.write("Ingresa un puntaje y el sistema lo calificara")
+    st.write("Ingresa un puntaje y el sistema lo calificara")
 
-#entrada de usario
+    #entrada de usario
 
-puntaje = st.number_input("Ingresa un puntaje (0-100):", min_value=0, max_value=100, step=1)
+    puntaje = st.number_input("Ingresa un puntaje (0-100):", min_value=0, max_value=100, step=1)
 
 #boton para clasificar
 
