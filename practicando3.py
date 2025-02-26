@@ -36,6 +36,6 @@ elif opcion ==  "Clasificacion de puntaje... chan!":
 
 #boton para clasificar
 
-if st.button("clasificar"):
-    resultado = clasificar_puntaje(puntaje)
-    st.success(f"el puntaje {puntaje} es clasificado como: {resultado}")
+    if st.button("clasificar"):
+        resultado = clasificar_puntaje(puntaje)
+        st.success(f"el puntaje {puntaje} es clasificado como: {resultado}")
